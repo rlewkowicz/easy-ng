@@ -1,4 +1,4 @@
-Simple repo to easily get logs to splunk using an HEC endpoint
+Simple repo to easily get logs to splunk using an HEC endpoint using syslog-ng
 
 Installing Docker (Linux only):
 ```
