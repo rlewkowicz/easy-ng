@@ -1,8 +1,8 @@
 FROM balabit/syslog-ng:latest
 
-RUN apt update
+RUN apt-get update
 
-RUN apt install curl -y
+RUN apt-get install curl -y --force-yes
 
 ADD ./sendtosplunk.sh /
 
